@@ -71,5 +71,10 @@ to the sensor.
 1. https://youtu.be/vbnia-J4dXU  -> Temperature Sensor
 2. https://youtu.be/SIvq5zDdexQ  -> Parking Sensor
 
+**Test Cases (Timing Diagrams)**
 ![CamScanner 04-11-2021 19 47_1](https://user-images.githubusercontent.com/58788527/114315355-ea683280-9afe-11eb-969e-c5ed36dc0c75.jpg)
+
+**Test Cases (Screenshots from running the code)**
+<img width="735" alt="Screen Shot 2021-04-11 at 7 49 31 PM" src="https://user-images.githubusercontent.com/58788527/114315408-2d2a0a80-9aff-11eb-800c-b31d946a58c5.png">
+
 
