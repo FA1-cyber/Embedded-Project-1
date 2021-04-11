@@ -67,7 +67,7 @@ to the sensor.
   The code can be split into multiple parts. Firstly, we have the tasks. We split the process into 3 tasks. The first task (ReadDistance) reads the distance from the sensor and stores it in a global variable to allow accessing by other tasks. The second task (setfrequency) compares the read distance to certain preset thresholds and sets the frequency of the buzzer based on the distance. Last task (toggleBuzzer) toggles the buzzer with the frequency set by the setfrequency functiion. Furthermore, we have the scheduler itself. Each task is queued into the scheduler queue with a different priority (ReadDistance having the highest priority and ToggleBuzzer having the least priority). The scheduler loops over the tasks in the ready queue and executes them according to their priority. If any task contains a “Rerunme” function, it queues it in the delay queue with the number of ticks passed as a parameter. We fire the systick handler every tick to decrement the delay of each function in the delay queue by 1. And the scheduler loops over the delay queue with every call to the dispatch function and dequeues any function that has the number of ticks equal to 0 and queues it in the ready queue. Since we need the distance to be frequently read, we set the rerunme of both the ReadDistance and setfrequency functions to only 10 (reading the distance every half second). However, since we would need the buzzer to be continuously buzzing (with a frequency dependent on the distance) we have it with a Rerunme(1).
   
   
-  Links for videos of the applications:
+  **Links for videos of the applications:**
 1. https://youtu.be/vbnia-J4dXU  -> Temperature Sensor
 2. https://youtu.be/SIvq5zDdexQ  -> Parking Sensor
 
