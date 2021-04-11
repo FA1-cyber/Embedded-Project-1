@@ -1,6 +1,10 @@
 # Embedded-Project-1
 Cooperative Scheduler for Embedded Systems
 
+Links for videos of the applications:
+1. https://youtu.be/vbnia-J4dXU. -> Temperature Sensor
+2. https://youtu.be/SIvq5zDdexQ  -> Ultrasonic Sensor
+
 **CubeMX for First Application (Read Temp from sensor, capture threshold from TeraTerm, blink LED accordingly)**
 To set up the cubeMX configurations for the first application, follow the following steps:
 *We are using UART1 thus we will need to use a USB-TTL to be able to read from the TeraTerm*
