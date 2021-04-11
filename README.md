@@ -73,11 +73,14 @@ to the sensor.
 
 **Test Cases (Timing Diagrams)**
 ![CamScanner 04-11-2021 19 47_1](https://user-images.githubusercontent.com/58788527/114315355-ea683280-9afe-11eb-969e-c5ed36dc0c75.jpg)
+![CamScanner 04-11-2021 19 57_1](https://user-images.githubusercontent.com/58788527/114315669-2e0f6c00-9b00-11eb-92da-e8e2fcea39e3.jpg)
+
 
 **Test Cases (Screenshots from running the code)**
 <img width="735" alt="Screen Shot 2021-04-11 at 7 49 31 PM" src="https://user-images.githubusercontent.com/58788527/114315408-2d2a0a80-9aff-11eb-800c-b31d946a58c5.png">
 
 <img width="735" alt="Screen Shot 2021-04-11 at 7 51 47 PM" src="https://user-images.githubusercontent.com/58788527/114315464-695d6b00-9aff-11eb-9fcb-decd1da159f9.png">
 
+![image](https://user-images.githubusercontent.com/58788527/114315679-3a93c480-9b00-11eb-9a62-c61d34f376e8.png)
 
 
