@@ -77,4 +77,7 @@ to the sensor.
 **Test Cases (Screenshots from running the code)**
 <img width="735" alt="Screen Shot 2021-04-11 at 7 49 31 PM" src="https://user-images.githubusercontent.com/58788527/114315408-2d2a0a80-9aff-11eb-800c-b31d946a58c5.png">
 
+<img width="735" alt="Screen Shot 2021-04-11 at 7 51 47 PM" src="https://user-images.githubusercontent.com/58788527/114315464-695d6b00-9aff-11eb-9fcb-decd1da159f9.png">
+
+
 
