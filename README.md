@@ -36,6 +36,7 @@ In the Pin Layout, set pin PA4 as GPIO_Output.
 
 
 How application 1 (Temprature) works?
+
 First you have to generate code using CubeMX with the configuration stated above. Then, use the code provided in the file
 "Temprature_Keil_main.c " as the "main.c" file and the code provided in the file " Temprature_Keil_IRQ_handler.c " as the
 "stm3214xx_it.c" file. Afterwards, build the code and load it on the Nuceleoboard. Connect the board in the way shown in
@@ -46,6 +47,7 @@ The temprature read will be displayed on the Teraterm terminal every 30 seconds.
 
 
 How application 2 (Parking Sensor)works?
+
 First you have to generate code using CubeMX with the configuration stated above. Then, use the code provided in the file
 "Ultrasound_Keil_main.c " as the "main.c" file and the code provided in the file "Ultrasound_Keil_delay_decrement.c " as the
 "stm3214xx_it.c" file. In addition, add the files "hcSR04.h" and "hcSR04.c" to the keil project. Afterwards, build the code and load
